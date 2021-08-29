@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+/* =====Default ===== */
+* {
+  font-family: "Mukta";
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  font-size: 16px;
+}
+html {
+  background-color: #5352d4;
+  scroll-behavior: smooth;
+}
+ul {
+  list-style-type: none;
+}
+hr {
+  padding: 0px !important;
+  margin-top: 80px !important;
+}
+/* home */
+.home-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+/* .left-side */
+#avatar {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+}
+#fullname {
+  font-size: 20px;
+  font-weight: 600;
+}
+#major {
+  color: #d8d8e9;
+  font-size: 17px;
+  font-weight: 300;
+}
+.ava-container {
+  text-align: center;
+}
+.left-side {
+  position: fixed;
+  width: 260px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(240deg 64% 60%);
+  padding: 46px;
+}
+.left-side > * {
+  color: white;
+}
+.major-descriptions {
+  display: flex;
+  flex-direction: column;
+  margin: 34px 0;
+}
+.social-network > * {
+  font-size: 20px;
+  margin: 0 0 34px;
+}
+.social-network {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* right-side */
+.right-side {
+  background: #fff;
+  float: right !important;
+  width: 740px;
+  padding: 46px;
+}
+.navigation > li > a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.section-header {
+  color: #f74470;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+#about-container > div > span {
+  font-weight: 400;
+  color: #2c2c2c;
+}
+#info {
+  margin-top: 40px;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+
+.skill-info {
+  display: flex;
+  /* justify-content: ; */
+}
+.col-md-6 {
+  margin-top: 40px;
+}
+.progress-bar {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f74470 !important;
+}
