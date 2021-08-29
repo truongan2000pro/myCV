@@ -7,9 +7,20 @@
   padding: 0px;
   font-size: 16px;
 }
+
 html {
   background-color: #5352d4;
   scroll-behavior: smooth;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+table {
+  width: 90%;
+  border-collapse: collapse;
 }
 ul {
   list-style-type: none;
@@ -108,4 +119,18 @@ hr {
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f74470 !important;
+}
+#title {
+  font-size: 20px;
+  font-weight: 600;
+}
+#year {
+  color: #696969;
+  font-size: 17px;
+  font-weight: 300;
+}
+.experience-title {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
 }
